@@ -1,0 +1,14 @@
+<div class="filterForm">
+    <div class="fiterByDomain">
+        <label for="">Filter by domain</label>
+        <br>
+        <input type="text" [(ngModel)]="nameDoamin" name="nameDoamin">
+        <button type="submit" class="btn" (click)="filter()" opacity>search</button>
+    </div>
+    <div class="filerByLocation">
+        <label for="">Filter by location</label>
+        <br>
+        <input type="text" [(ngModel)]="nameLocation" name="nameLocation">
+        <button type="submit" class="btn" (click)="filter()" opacity>search</button>
+    </div>
+</div>

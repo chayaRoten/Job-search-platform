@@ -1,0 +1,13 @@
+<div class="body">
+    <h2>log-in</h2>
+    <div>
+        <label>userName: </label>
+        <input type="text" name="userName" [(ngModel)]="name" required>
+    </div>
+    <div>
+        <label>password: </label>
+        <input type="password" name="password" [(ngModel)]="password" required>
+    </div>
+    <br>
+    <button type="submit" class="btn" (click)="save()" opacity>login</button>
+</div>

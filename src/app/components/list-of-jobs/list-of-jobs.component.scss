@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255 232 238);
+    padding: 3%;
+}
+.allJobs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.oneJob{
+    border-width: 10%;
+    border: solid  black;
+    background-color: black;
+    color: rgb(192, 142, 156);
+    border-radius: 1%;
+    text-align: center;
+    padding: 2%;
+    font-size: 130%;
+    margin-bottom: 2%;
+}
+
+.linkHome{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255 232 238);
+    font-size: 156%;
+    padding: 1%;
+    border-radius: 18%;
+}
+
+

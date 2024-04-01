@@ -1,0 +1,28 @@
+.filterForm {
+    font-size: larger;
+    display: flex;
+    margin-left: 64%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.fiterByDomain {}
+
+.filerByLocation {
+    margin-left: 17%;
+}
+
+.btn {
+    color: rgb(192, 142, 156);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+input {
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background: none;
+    margin: 7% 0;
+}

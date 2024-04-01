@@ -1,0 +1,10 @@
+<body>
+    <app-filter-job (filterChange)="filterChange2($event)"></app-filter-job>
+    <div class="allJobs">
+        <div *ngFor="let j of jobs" class="oneJob">
+            <app-job [jobData]=j></app-job>
+        </div>
+    </div>
+</body>
+<br>
+<a href="" class="linkHome" opacity>Home</a>
