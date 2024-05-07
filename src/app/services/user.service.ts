@@ -38,5 +38,13 @@ export class UserService {
         return this.countCv;
     }
 
+    public filterByDomain(event: any){
+        let f=this.jobs.filter(x=> x['domain']===event)
+        return f
+    }
+    public filterByLocation(event:any){
+        let f=this.jobs.filter(x => x['location'] == event)
+        return f
+    }
 
 }
