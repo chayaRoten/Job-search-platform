@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
+## Project Overview
+
+This project is a **job search platform** developed using **Angular** for the client side and **.NET Core** for the server side. It provides features for user job management, and role-based access control.
+
+## Features
+
+- **Job Management:** Users can search for jobs, view details, and apply directly from the platform.
+- **Role-Based Access:** Role-based access control for users and administrators.
+- **Custom Angular Components:** Includes Home, Login, and Job Listing components.
+
+## Technologies Used
+
+- **Client-Side:** Angular, Angular CLI, HTML, CSS, TypeScript
+- **Server-Side:** .NET Core
+- **Development Tools:** Visual Studio, Postman
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
